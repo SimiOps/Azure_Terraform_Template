@@ -1,0 +1,5 @@
+provider: cloudflare
+cloudflare:
+  apiKey: "YourApiKey"
+  email: "cloudflareEmail"
+  proxied: true
