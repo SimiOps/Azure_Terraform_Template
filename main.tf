@@ -23,7 +23,7 @@ module "aks_cluster" {
   ip_sku_tier = "Standard"
   aks_name = "aks-tf"
   sku_aks= "Free"
-  aks_version = 1.23
+  aks_version = "1.29.5"
   dns_prefix = "aks-tf"
   nodepool_apps_name = "aplicacoes"
   nodepool_vm_size = "Standard_B2s"
